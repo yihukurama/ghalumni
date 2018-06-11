@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ghds.alumni.domain.tkmapper.mapper.admin.UserMapper">
+
+
+    <select id="selectRoleByUser"
+            resultType="com.ghds.alumni.domain.tkmapper.entity.admin.RoleEntity">
+        <![CDATA[
+                SELECT
+            *
+        FROM
+            admin_role
+        WHERE
+            id IN (
+                SELECT
+                    roleId
+                FROM
+                    admin_roleprivilege
+                WHERE
+                    roleId IN (
+                        SELECT
+                            roleId
+                        FROM
+                            admin_userrole
+                        WHERE
+                            userId = #{id}
+                    )
+            )
+        ]]>
+    </select>
+
+    <select id="selectSubsystemByUser"
+            resultType="com.ghds.alumni.domain.tkmapper.entity.admin.SubsystemEntity">
+        <![CDATA[
+        SELECT
+        *
+        FROM
+        admin_subsystem
+        WHERE
+        id IN (
+        SELECT
+        privilegeId
+        FROM
+        admin_roleprivilege
+        WHERE
+        type = 1
+        AND roleId IN (
+        SELECT
+        roleId
+        FROM
+        admin_userrole
+        WHERE
+        userId = #{id}
+        )
+        )
+        ]]>
+    </select>
+
+    <select id="selectMenuByUser"
+            resultType="com.ghds.alumni.domain.tkmapper.entity.admin.MenuEntity">
+        <![CDATA[
+        SELECT
+        *
+        FROM
+        admin_menu
+        WHERE
+        id IN (
+        SELECT
+        privilegeId
+        FROM
+        admin_roleprivilege
+        WHERE
+        type = 2
+        AND roleId IN (
+        SELECT
+        roleId
+        FROM
+        admin_userrole
+        WHERE
+        userId = #{id}
+        )
+        )
+        ]]>
+    </select>
+
+    <select id="selectFuncByUser"
+            resultType="com.ghds.alumni.domain.tkmapper.entity.admin.FuncEntity">
+        <![CDATA[
+        SELECT
+        *
+        FROM
+        admin_func
+        WHERE
+        id IN (
+        SELECT
+        privilegeId
+        FROM
+        admin_roleprivilege
+        WHERE
+        type = 4
+        AND roleId IN (
+        SELECT
+        roleId
+        FROM
+        admin_userrole
+        WHERE
+        userId = #{id}
+        )
+        )
+        ]]>
+    </select>
+
+
+</mapper>
