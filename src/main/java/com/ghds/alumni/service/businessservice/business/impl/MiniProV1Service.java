@@ -62,7 +62,7 @@ public class MiniProV1Service implements IMiniProV1 {
         userEntity.setOrgId(updatePersonalInfoDto.getOrgId());
         userEntity.setOrgName(organizationEntity.getText());
 
-        userCount = userMapper.updateByPrimaryKey(userEntity);
+        userCount = userMapper.updateByPrimaryKeySelective(userEntity);
 
         if(empCount == 1 && userCount == 1){
             return Result.successed(employeeEntity);
