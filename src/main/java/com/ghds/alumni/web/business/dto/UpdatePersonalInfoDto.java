@@ -1,4 +1,7 @@
 package com.ghds.alumni.web.business.dto;
+
+import com.ghds.alumni.domain.business.Wxuser;
+
 /**
  * 说明： 小程序更新个人信息包装类
  * @author dengshuai
@@ -43,6 +46,15 @@ public class UpdatePersonalInfoDto {
      */
     private String note;
 
+    private Wxuser wxuser;
+
+    public Wxuser getWxuser() {
+        return wxuser;
+    }
+
+    public void setWxuser(Wxuser wxuser) {
+        this.wxuser = wxuser;
+    }
 
     public String getNote() {
         return note;

@@ -25,14 +25,14 @@ public class FrameWorkGen {
     @Test
     public void batchGenBaseMapper() throws ClassNotFoundException, IllegalArgumentException, IllegalAccessException, SQLException {
 
-        String[] tableNames = {"admin_area", "admin_user", "admin_configuration", "admin_department", "admin_employee", "admin_empservbranch", "admin_func", "admin_menu", "admin_organization", "admin_role", "admin_roleprivilege", "admin_servicebranch", "admin_smsrecord", "admin_smstemplate", "admin_subsystem", "admin_systemlog", "admin_userrole", "business_operatelog", "business_picture"};//指定重新构造某些表
+        String[] tableNames = {"business_wxuser"};//指定重新构造某些表
 
         Connection conn = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            String user = "root";
-            String pwd = "w2IWezNNDIQcxa1Q0lrx";
-            String url = "jdbc:mysql://gz-cdb-r1s9da1j.sql.tencentcdb.com:63179/yst_tkadmin?useUnicode=true&amp;characterEncoding=UTF-8";
+            String user = "ghxyh";
+            String pwd = "ghxyh";
+            String url = "jdbc:mysql://119.29.253.166:3306/ghxyh_dev?useUnicode=true&amp;characterEncoding=UTF-8";
             Properties props = new Properties();
             props.setProperty("user", user);
             props.setProperty("password", pwd);
@@ -119,6 +119,6 @@ public class FrameWorkGen {
     IGenEntity genEntity;
     @Autowired
     IGenMapper genMapper;
-    @Autowired
-    IGenDomainService genDomainService;
+//    @Autowired
+//    IGenDomainService genDomainService;
 }
