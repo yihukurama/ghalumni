@@ -1,0 +1,945 @@
+2018-07-11 16:40:37 [main] DEBUG [org.jboss.logging] - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-07-11 16:40:38 [main] INFO  [com.ghds.alumni.GhAlumniApplication] - The following profiles are active: dev
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\AreaMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\ConfigurationMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\DepartmentMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\EmployeeMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\EmpservbranchMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\FuncMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\MenuMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\OrganizationMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\RoleMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\RoleprivilegeMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\ServicebranchMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SmsrecordMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SmstemplateMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SubsystemMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SystemlogMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserroleMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\FormidsMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\OperatelogMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\PictureMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\WxuserMapper.class]
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'areaMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.AreaMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'areaMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'configurationMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'configurationMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'departmentMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.DepartmentMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'departmentMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'employeeMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.EmployeeMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'employeeMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'empservbranchMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.EmpservbranchMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'empservbranchMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'funcMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.FuncMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'funcMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'menuMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.MenuMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'menuMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'organizationMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.OrganizationMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'organizationMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'roleMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.RoleMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'roleprivilegeMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.RoleprivilegeMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'roleprivilegeMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'servicebranchMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.ServicebranchMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'servicebranchMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'smsrecordMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SmsrecordMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'smsrecordMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'smstemplateMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SmstemplateMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'smstemplateMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'subsystemMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SubsystemMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'subsystemMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'systemlogMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SystemlogMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'systemlogMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'userMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.UserMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'userroleMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.UserroleMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'userroleMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'formidsMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.FormidsMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'formidsMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'operatelogMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.OperatelogMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'operatelogMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'pictureMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.PictureMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'wxuserMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.WxuserMapper' mapperInterface
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'wxuserMapper'.
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - Searching for mappers annotated with @Mapper
+2018-07-11 16:40:39 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - Using auto-configuration base package 'com.ghds.alumni'
+2018-07-11 16:40:39 [main] WARN  [tk.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.ghds.alumni]' package. Please check your configuration.
+2018-07-11 16:40:39 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - Searching for mappers annotated with @Mapper
+2018-07-11 16:40:39 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - Using auto-configuration base package 'com.ghds.alumni'
+2018-07-11 16:40:39 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.ghds.alumni]' package. Please check your configuration.
+2018-07-11 16:40:44 [main] ERROR [com.alibaba.druid.pool.DruidDataSource] - init datasource error, url: jdbc:mysql://119.29.253.166:3306/alumni?useUnicode=true&amp;characterEncoding=UTF-8
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'alumni'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2219)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2014)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1515)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1578)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:859)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1342)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at com.ghds.alumni.GhAlumniApplication.main(GhAlumniApplication.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:527)
+	at java.lang.Thread.run(Thread.java:745)
+2018-07-11 16:40:44 [main] ERROR [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} init error
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'alumni'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2219)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2014)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1515)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1578)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:859)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1342)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at com.ghds.alumni.GhAlumniApplication.main(GhAlumniApplication.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:527)
+	at java.lang.Thread.run(Thread.java:745)
+2018-07-11 16:40:44 [Druid-ConnectionPool-Create-1666277460] ERROR [com.alibaba.druid.pool.DruidDataSource] - create connection SQLException, url: jdbc:mysql://119.29.253.166:3306/alumni?useUnicode=true&amp;characterEncoding=UTF-8, errorCode 1049, state 42000
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'alumni'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2219)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2014)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1515)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1578)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+2018-07-11 16:40:44 [main] ERROR [org.springframework.boot.SpringApplication] - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loadSettings': Unsatisfied dependency expressed through field 'configurationService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configurationService': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'alumni'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at com.ghds.alumni.GhAlumniApplication.main(GhAlumniApplication.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:527)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configurationService': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'alumni'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 24 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'alumni'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 37 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'alumni'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1342)
+	... 48 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'alumni'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 61 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'alumni'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2219)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2014)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1515)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1578)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:859)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 72 more
+2018-07-11 16:40:44 [Druid-ConnectionPool-Create-1666277460] ERROR [com.alibaba.druid.pool.DruidDataSource] - create connection SQLException, url: jdbc:mysql://119.29.253.166:3306/alumni?useUnicode=true&amp;characterEncoding=UTF-8, errorCode 1049, state 42000
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'alumni'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2219)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2014)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1515)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1578)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+2018-07-11 16:44:04 [main] DEBUG [org.jboss.logging] - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-07-11 16:44:05 [main] INFO  [com.ghds.alumni.GhAlumniApplication] - The following profiles are active: dev
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\AreaMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\ConfigurationMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\DepartmentMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\EmployeeMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\EmpservbranchMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\FuncMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\MenuMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\OrganizationMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\RoleMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\RoleprivilegeMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\ServicebranchMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SmsrecordMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SmstemplateMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SubsystemMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SystemlogMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserroleMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\FormidsMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\OperatelogMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\PictureMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\WxuserMapper.class]
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'areaMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.AreaMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'areaMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'configurationMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'configurationMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'departmentMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.DepartmentMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'departmentMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'employeeMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.EmployeeMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'employeeMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'empservbranchMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.EmpservbranchMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'empservbranchMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'funcMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.FuncMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'funcMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'menuMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.MenuMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'menuMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'organizationMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.OrganizationMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'organizationMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'roleMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.RoleMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'roleprivilegeMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.RoleprivilegeMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'roleprivilegeMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'servicebranchMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.ServicebranchMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'servicebranchMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'smsrecordMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SmsrecordMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'smsrecordMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'smstemplateMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SmstemplateMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'smstemplateMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'subsystemMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SubsystemMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'subsystemMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'systemlogMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SystemlogMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'systemlogMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'userMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.UserMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'userroleMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.UserroleMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'userroleMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'formidsMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.FormidsMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'formidsMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'operatelogMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.OperatelogMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'operatelogMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'pictureMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.PictureMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'wxuserMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.WxuserMapper' mapperInterface
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'wxuserMapper'.
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - Searching for mappers annotated with @Mapper
+2018-07-11 16:44:05 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - Using auto-configuration base package 'com.ghds.alumni'
+2018-07-11 16:44:06 [main] WARN  [tk.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.ghds.alumni]' package. Please check your configuration.
+2018-07-11 16:44:06 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - Searching for mappers annotated with @Mapper
+2018-07-11 16:44:06 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - Using auto-configuration base package 'com.ghds.alumni'
+2018-07-11 16:44:06 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.ghds.alumni]' package. Please check your configuration.
+2018-07-11 16:44:09 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Scanned package: 'com.ghds.alumni.domain.tkmapper.entity' for aliases
+2018-07-11 16:44:10 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\ds\myproject\github\ghalumni\target\classes\mapper\UserMapper.xml]'
+2018-07-11 16:44:10 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\ds\myproject\github\ghalumni\target\classes\mapper\ViewMapper.xml]'
+2018-07-11 16:44:13 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2018-07-11 16:44:13 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2018-07-11 16:44:13 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2018-07-11 16:44:13 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear EntityHelper entityTableMap cache.
+2018-07-11 16:44:13 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2018-07-11 16:44:13 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2018-07-11 16:44:15 [main] INFO  [com.ghds.alumni.app.config.LoadSettings] - åŠ è½½ç³»ç»Ÿé…ç½®ã€‚ã€‚ã€‚
+2018-07-11 16:44:15 [main] DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2018-07-11 16:44:15 [main] DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4eec3886] was not registered for synchronization because synchronization is not active
+2018-07-11 16:44:15 [main] DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5cc411ac] will not be managed by Spring
+2018-07-11 16:44:15 [main] DEBUG [com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper.select] - ==>  Preparing: SELECT id,code,value,type,indexOrder,note,delStatus,createDate,operateDate,createrId,creater,operatorId,operator FROM admin_configuration WHERE delStatus = ? 
+2018-07-11 16:44:15 [main] DEBUG [com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper.select] - ==> Parameters: 0(Integer)
+2018-07-11 16:44:16 [main] DEBUG [com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper.select] - <==      Total: 4
+2018-07-11 16:44:16 [main] DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4eec3886]
+2018-07-11 16:44:16 [main] INFO  [com.ghds.alumni.app.config.LoadSettings] - ç™»å½•è¶…æ—¶æ—¶é—´,å•ä½ä¸ºç§’1=14400
+2018-07-11 16:44:16 [main] INFO  [com.ghds.alumni.GhAlumniApplication] - Started GhAlumniApplication in 12.351 seconds (JVM running for 18.398)
+2018-07-11 16:46:28 [background-preinit] DEBUG [org.jboss.logging] - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-07-11 16:46:28 [main] INFO  [com.ghds.alumni.GhAlumniApplicationTests] - The following profiles are active: dev
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\AreaMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\ConfigurationMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\DepartmentMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\EmployeeMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\EmpservbranchMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\FuncMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\MenuMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\OrganizationMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\RoleMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\RoleprivilegeMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\ServicebranchMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SmsrecordMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SmstemplateMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SubsystemMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SystemlogMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserroleMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\FormidsMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\OperatelogMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\PictureMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\WxuserMapper.class]
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'areaMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.AreaMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'areaMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'configurationMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'configurationMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'departmentMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.DepartmentMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'departmentMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'employeeMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.EmployeeMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'employeeMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'empservbranchMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.EmpservbranchMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'empservbranchMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'funcMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.FuncMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'funcMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'menuMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.MenuMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'menuMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'organizationMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.OrganizationMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'organizationMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'roleMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.RoleMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'roleprivilegeMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.RoleprivilegeMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'roleprivilegeMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'servicebranchMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.ServicebranchMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'servicebranchMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'smsrecordMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SmsrecordMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'smsrecordMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'smstemplateMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SmstemplateMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'smstemplateMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'subsystemMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SubsystemMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'subsystemMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'systemlogMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SystemlogMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'systemlogMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'userMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.UserMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'userroleMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.UserroleMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'userroleMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'formidsMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.FormidsMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'formidsMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'operatelogMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.OperatelogMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'operatelogMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'pictureMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.PictureMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'wxuserMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.WxuserMapper' mapperInterface
+2018-07-11 16:46:29 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'wxuserMapper'.
+2018-07-11 16:46:30 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - Searching for mappers annotated with @Mapper
+2018-07-11 16:46:30 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - Using auto-configuration base package 'com.ghds.alumni'
+2018-07-11 16:46:30 [main] WARN  [tk.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.ghds.alumni]' package. Please check your configuration.
+2018-07-11 16:46:30 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - Searching for mappers annotated with @Mapper
+2018-07-11 16:46:30 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - Using auto-configuration base package 'com.ghds.alumni'
+2018-07-11 16:46:30 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.ghds.alumni]' package. Please check your configuration.
+2018-07-11 16:46:33 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Scanned package: 'com.ghds.alumni.domain.tkmapper.entity' for aliases
+2018-07-11 16:46:33 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\ds\myproject\github\ghalumni\target\classes\mapper\UserMapper.xml]'
+2018-07-11 16:46:33 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\ds\myproject\github\ghalumni\target\classes\mapper\ViewMapper.xml]'
+2018-07-11 16:46:35 [main] ERROR [org.springframework.boot.SpringApplication] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverEndpointExporter' defined in class path resource [com/ghds/alumni/app/config/InitBean.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: javax.websocket.server.ServerContainer not available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.IllegalStateException: javax.websocket.server.ServerContainer not available
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterPropertiesSet(ServerEndpointExporter.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 41 more
+2018-07-11 16:46:35 [main] ERROR [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@7b423f90] to prepare test instance [com.ghds.alumni.GhAlumniApplicationTests@24f3fb87]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverEndpointExporter' defined in class path resource [com/ghds/alumni/app/config/InitBean.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: javax.websocket.server.ServerContainer not available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 more
+Caused by: java.lang.IllegalStateException: javax.websocket.server.ServerContainer not available
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.web.socket.server.standard.ServerEndpointExporter.afterPropertiesSet(ServerEndpointExporter.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 41 more
+2018-07-11 16:47:31 [background-preinit] DEBUG [org.jboss.logging] - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-07-11 16:47:32 [main] INFO  [com.ghds.alumni.GhAlumniApplicationTests] - The following profiles are active: dev
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\AreaMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\ConfigurationMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\DepartmentMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\EmployeeMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\EmpservbranchMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\FuncMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\MenuMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\OrganizationMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\RoleMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\RoleprivilegeMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\ServicebranchMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SmsrecordMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SmstemplateMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SubsystemMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SystemlogMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserroleMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\FormidsMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\OperatelogMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\PictureMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\WxuserMapper.class]
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'areaMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.AreaMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'areaMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'configurationMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'configurationMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'departmentMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.DepartmentMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'departmentMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'employeeMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.EmployeeMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'employeeMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'empservbranchMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.EmpservbranchMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'empservbranchMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'funcMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.FuncMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'funcMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'menuMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.MenuMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'menuMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'organizationMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.OrganizationMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'organizationMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'roleMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.RoleMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'roleprivilegeMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.RoleprivilegeMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'roleprivilegeMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'servicebranchMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.ServicebranchMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'servicebranchMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'smsrecordMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SmsrecordMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'smsrecordMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'smstemplateMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SmstemplateMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'smstemplateMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'subsystemMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SubsystemMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'subsystemMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'systemlogMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SystemlogMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'systemlogMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'userMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.UserMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'userroleMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.UserroleMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'userroleMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'formidsMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.FormidsMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'formidsMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'operatelogMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.OperatelogMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'operatelogMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'pictureMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.PictureMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'wxuserMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.WxuserMapper' mapperInterface
+2018-07-11 16:47:32 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'wxuserMapper'.
+2018-07-11 16:47:33 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - Searching for mappers annotated with @Mapper
+2018-07-11 16:47:33 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - Using auto-configuration base package 'com.ghds.alumni'
+2018-07-11 16:47:33 [main] WARN  [tk.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.ghds.alumni]' package. Please check your configuration.
+2018-07-11 16:47:33 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - Searching for mappers annotated with @Mapper
+2018-07-11 16:47:33 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - Using auto-configuration base package 'com.ghds.alumni'
+2018-07-11 16:47:33 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.ghds.alumni]' package. Please check your configuration.
+2018-07-11 16:47:36 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Scanned package: 'com.ghds.alumni.domain.tkmapper.entity' for aliases
+2018-07-11 16:47:36 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\ds\myproject\github\ghalumni\target\classes\mapper\UserMapper.xml]'
+2018-07-11 16:47:36 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\ds\myproject\github\ghalumni\target\classes\mapper\ViewMapper.xml]'
+2018-07-11 16:47:40 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2018-07-11 16:47:40 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2018-07-11 16:47:40 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2018-07-11 16:47:40 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear EntityHelper entityTableMap cache.
+2018-07-11 16:47:40 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2018-07-11 16:47:40 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2018-07-11 16:47:42 [main] INFO  [com.ghds.alumni.app.config.LoadSettings] - ¼ÓÔØÏµÍ³ÅäÖÃ¡£¡£¡£
+2018-07-11 16:47:42 [main] DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2018-07-11 16:47:42 [main] DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33671907] was not registered for synchronization because synchronization is not active
+2018-07-11 16:47:42 [main] DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@b8e6981] will not be managed by Spring
+2018-07-11 16:47:42 [main] DEBUG [com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper.select] - ==>  Preparing: SELECT id,code,value,type,indexOrder,note,delStatus,createDate,operateDate,createrId,creater,operatorId,operator FROM admin_configuration WHERE delStatus = ? 
+2018-07-11 16:47:42 [main] DEBUG [com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper.select] - ==> Parameters: 0(Integer)
+2018-07-11 16:47:42 [main] DEBUG [com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper.select] - <==      Total: 4
+2018-07-11 16:47:42 [main] DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33671907]
+2018-07-11 16:47:42 [main] INFO  [com.ghds.alumni.app.config.LoadSettings] - µÇÂ¼³¬Ê±Ê±¼ä,µ¥Î»ÎªÃë1=14400
+2018-07-11 16:47:42 [main] INFO  [com.ghds.alumni.GhAlumniApplicationTests] - Started GhAlumniApplicationTests in 11.342 seconds (JVM running for 11.995)
+2018-07-11 16:47:57 [background-preinit] DEBUG [org.jboss.logging] - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-07-11 16:47:58 [main] INFO  [com.ghds.alumni.GhAlumniApplicationTests] - The following profiles are active: dev
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\AreaMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\ConfigurationMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\DepartmentMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\EmployeeMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\EmpservbranchMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\FuncMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\MenuMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\OrganizationMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\RoleMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\RoleprivilegeMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\ServicebranchMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SmsrecordMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SmstemplateMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SubsystemMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\SystemlogMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\admin\UserroleMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\FormidsMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\OperatelogMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\PictureMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Identified candidate component class: file [E:\ds\myproject\github\ghalumni\target\classes\com\ghds\alumni\domain\tkmapper\mapper\business\WxuserMapper.class]
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'areaMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.AreaMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'areaMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'configurationMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'configurationMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'departmentMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.DepartmentMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'departmentMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'employeeMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.EmployeeMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'employeeMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'empservbranchMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.EmpservbranchMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'empservbranchMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'funcMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.FuncMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'funcMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'menuMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.MenuMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'menuMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'organizationMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.OrganizationMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'organizationMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'roleMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.RoleMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'roleprivilegeMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.RoleprivilegeMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'roleprivilegeMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'servicebranchMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.ServicebranchMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'servicebranchMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'smsrecordMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SmsrecordMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'smsrecordMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'smstemplateMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SmstemplateMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'smstemplateMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'subsystemMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SubsystemMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'subsystemMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'systemlogMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.SystemlogMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'systemlogMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'userMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.UserMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'userroleMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.admin.UserroleMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'userroleMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'formidsMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.FormidsMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'formidsMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'operatelogMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.OperatelogMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'operatelogMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'pictureMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.PictureMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Creating MapperFactoryBean with name 'wxuserMapper' and 'com.ghds.alumni.domain.tkmapper.mapper.business.WxuserMapper' mapperInterface
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.spring.mapper.ClassPathMapperScanner] - Enabling autowire by type for MapperFactoryBean with name 'wxuserMapper'.
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - Searching for mappers annotated with @Mapper
+2018-07-11 16:47:59 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - Using auto-configuration base package 'com.ghds.alumni'
+2018-07-11 16:47:59 [main] WARN  [tk.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.ghds.alumni]' package. Please check your configuration.
+2018-07-11 16:47:59 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - Searching for mappers annotated with @Mapper
+2018-07-11 16:47:59 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - Using auto-configuration base package 'com.ghds.alumni'
+2018-07-11 16:47:59 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.ghds.alumni]' package. Please check your configuration.
+2018-07-11 16:48:02 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Scanned package: 'com.ghds.alumni.domain.tkmapper.entity' for aliases
+2018-07-11 16:48:02 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\ds\myproject\github\ghalumni\target\classes\mapper\UserMapper.xml]'
+2018-07-11 16:48:02 [main] DEBUG [org.mybatis.spring.SqlSessionFactoryBean] - Parsed mapper file: 'file [E:\ds\myproject\github\ghalumni\target\classes\mapper\ViewMapper.xml]'
+2018-07-11 16:48:06 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2018-07-11 16:48:06 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2018-07-11 16:48:06 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2018-07-11 16:48:06 [main] INFO  [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] - Clear EntityHelper entityTableMap cache.
+2018-07-11 16:48:06 [main] DEBUG [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration] - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2018-07-11 16:48:06 [main] DEBUG [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2018-07-11 16:48:07 [main] INFO  [com.ghds.alumni.app.config.LoadSettings] - ¼ÓÔØÏµÍ³ÅäÖÃ¡£¡£¡£
+2018-07-11 16:48:07 [main] DEBUG [org.mybatis.spring.SqlSessionUtils] - Creating a new SqlSession
+2018-07-11 16:48:07 [main] DEBUG [org.mybatis.spring.SqlSessionUtils] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22858c21] was not registered for synchronization because synchronization is not active
+2018-07-11 16:48:07 [main] DEBUG [org.mybatis.spring.transaction.SpringManagedTransaction] - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@33c91567] will not be managed by Spring
+2018-07-11 16:48:07 [main] DEBUG [com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper.select] - ==>  Preparing: SELECT id,code,value,type,indexOrder,note,delStatus,createDate,operateDate,createrId,creater,operatorId,operator FROM admin_configuration WHERE delStatus = ? 
+2018-07-11 16:48:07 [main] DEBUG [com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper.select] - ==> Parameters: 0(Integer)
+2018-07-11 16:48:07 [main] DEBUG [com.ghds.alumni.domain.tkmapper.mapper.admin.ConfigurationMapper.select] - <==      Total: 4
+2018-07-11 16:48:07 [main] DEBUG [org.mybatis.spring.SqlSessionUtils] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22858c21]
+2018-07-11 16:48:07 [main] INFO  [com.ghds.alumni.app.config.LoadSettings] - µÇÂ¼³¬Ê±Ê±¼ä,µ¥Î»ÎªÃë1=14400
+2018-07-11 16:48:07 [main] INFO  [com.ghds.alumni.GhAlumniApplicationTests] - Started GhAlumniApplicationTests in 10.894 seconds (JVM running for 11.55)
