@@ -66,4 +66,14 @@ public class MiniProV1Controller {
         return miniProV1.searchInfos(request);
     }
 
+    @ApiOperation(httpMethod = "POST", value = "查看校友详情", notes = "查询校友列表")
+    @RequestMapping(value = "/loadPreview", method = RequestMethod.POST)
+    public Result loadPreview(@RequestBody Request<Wxuser> request) throws TipsException, NoSuchMethodException {
+
+
+
+
+        return miniProV1.loadPreview(request);
+    }
+
 }

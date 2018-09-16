@@ -21,6 +21,7 @@ import com.ghds.alumni.domain.tkmapper.mapper.business.WxuserMapper;
 import com.ghds.alumni.service.businessservice.business.IMiniProV1;
 import com.ghds.alumni.service.domainservice.business.TagsService;
 import com.ghds.alumni.service.domainservice.business.WxuserService;
+import com.ghds.alumni.web.business.dto.PreviewDto;
 import com.ghds.alumni.web.business.dto.UpdatePersonalInfoDto;
 import com.ghds.alumni.web.dto.Request;
 import com.ghds.alumni.web.dto.Result;
@@ -130,6 +131,9 @@ public class MiniProV1Service implements IMiniProV1 {
             return Result.failed("无此微信用户");
         }
 
+        if(wxuserEntity.getAuth() == null || !wxuserEntity.getAuth()){
+            return Result.failed("为保护校友信息，请先补充您的校友资料，通过认证后才能查询");
+        }
         /**
          * 得到员工信息
          */
@@ -149,6 +153,53 @@ public class MiniProV1Service implements IMiniProV1 {
 
 
 
+    }
+
+    @Override
+    public Result loadPreview(Request<Wxuser> request) {
+
+        /**
+         * 得到微信信息
+         */
+        WxuserEntity wxuserEntity = request.getData();
+        wxuserEntity.setId(wxuserEntity.getId());
+        wxuserEntity = wxuserMapper.selectByPrimaryKey(wxuserEntity);
+        if(wxuserEntity == null){
+            return Result.failed("无此微信用户");
+        }
+
+        /**
+         * 得到用户信息
+         */
+        UserEntity userEntity = new UserEntity();
+        userEntity.setId(wxuserEntity.getUserId());
+        userEntity = userMapper.selectByPrimaryKey(userEntity);
+        if(userEntity == null){
+            return Result.failed("无此用户");
+        }
+
+
+
+        /**
+         * 得到员工信息
+         */
+        EmployeeEntity employeeEntity = new EmployeeEntity();
+        employeeEntity.setId(userEntity.getEmployeeId());
+        employeeEntity = employeeMapper.selectByPrimaryKey(employeeEntity);
+        if(employeeEntity == null){
+            return Result.failed("该校友未完善个人信息");
+        }
+
+        TagsEntity tagsEntity = new TagsEntity();
+        tagsEntity.setUserId(wxuserEntity.getUserId());
+        List<TagsEntity> tagsEntityList = tagsMapper.select(tagsEntity);
+
+        //组装数据
+        PreviewDto previewDto = new PreviewDto();
+        previewDto.setEmployeeEntity(employeeEntity);
+        previewDto.setWxuserEntity(wxuserEntity);
+        previewDto.setTagsEntityList(tagsEntityList);
+        return Result.successed(previewDto);
     }
 
 

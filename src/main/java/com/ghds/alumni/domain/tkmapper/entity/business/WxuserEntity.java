@@ -20,11 +20,7 @@ import io.swagger.annotations.ApiModelProperty;
 @Table(name="business_wxuser")
 public class WxuserEntity extends BaseEntity
 {
-	/**
-	*序列号
-	**/
-	@Id
-	private String id;
+
 	/**
 	*1呈信出行
 	**/
@@ -183,14 +179,6 @@ public class WxuserEntity extends BaseEntity
 	private Integer workAge;
 	
 	
-
-	public String getId(){
-		return id;
-	}
-
-	public void setId(String id){
-		this.id = id;
-	}
 
 	public Integer getType(){
 		return type;

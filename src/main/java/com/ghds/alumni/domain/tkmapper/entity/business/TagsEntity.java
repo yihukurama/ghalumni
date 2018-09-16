@@ -52,12 +52,6 @@ public class TagsEntity extends BaseEntity
 	@Column(name="note")
 	private String note;
 	/**
-	*删除状态,0未删除,1删除
-	**/
-	@ApiModelProperty(value="删除状态,0未删除,1删除")
-	@Column(name="delStatus")
-	private Integer delStatus;
-	/**
 	*创建时间
 	**/
 	@JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm:ss")
@@ -94,6 +88,8 @@ public class TagsEntity extends BaseEntity
 	@Column(name="operator")
 	private String operator;
 	
+	
+
 
 
 	public String getUserId(){
@@ -134,14 +130,6 @@ public class TagsEntity extends BaseEntity
 
 	public void setNote(String note){
 		this.note = note;
-	}
-
-	public Integer getDelStatus(){
-		return delStatus;
-	}
-
-	public void setDelStatus(Integer delStatus){
-		this.delStatus = delStatus;
 	}
 
 	public Date getCreateDate(){

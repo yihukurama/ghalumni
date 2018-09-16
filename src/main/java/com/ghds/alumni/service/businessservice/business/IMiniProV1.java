@@ -28,4 +28,11 @@ public interface IMiniProV1 {
      * @return
      */
     Result searchInfos(Request<Wxuser> request) throws NoSuchMethodException, TipsException;
+
+    /**
+     * 查看校友详情
+     * @param request
+     * @return
+     */
+    Result loadPreview(Request<Wxuser> request);
 }
