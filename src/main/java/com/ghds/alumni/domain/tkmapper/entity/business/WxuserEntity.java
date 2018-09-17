@@ -20,7 +20,6 @@ import io.swagger.annotations.ApiModelProperty;
 @Table(name="business_wxuser")
 public class WxuserEntity extends BaseEntity
 {
-
 	/**
 	*1呈信出行
 	**/
@@ -177,8 +176,28 @@ public class WxuserEntity extends BaseEntity
 	@ApiModelProperty(value="届别")
 	@Column(name="workAge")
 	private Integer workAge;
+	/**
+	*联系电话
+	**/
+	@ApiModelProperty(value="联系电话")
+	@Column(name="mobile")
+	private String mobile;
+	/**
+	*个人简介
+	**/
+	@ApiModelProperty(value="个人简介")
+	@Column(name="profile")
+	private String profile;
+	/**
+	*部门名称
+	**/
+	@ApiModelProperty(value="部门名称")
+	@Column(name="departmentText")
+	private String departmentText;
 	
 	
+
+
 
 	public Integer getType(){
 		return type;
@@ -386,6 +405,30 @@ public class WxuserEntity extends BaseEntity
 
 	public void setWorkAge(Integer workAge){
 		this.workAge = workAge;
+	}
+
+	public String getMobile(){
+		return mobile;
+	}
+
+	public void setMobile(String mobile){
+		this.mobile = mobile;
+	}
+
+	public String getProfile(){
+		return profile;
+	}
+
+	public void setProfile(String profile){
+		this.profile = profile;
+	}
+
+	public String getDepartmentText(){
+		return departmentText;
+	}
+
+	public void setDepartmentText(String departmentText){
+		this.departmentText = departmentText;
 	}
 
 	

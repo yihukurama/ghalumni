@@ -59,6 +59,28 @@ public class Wxuser extends WxuserEntity {
         return super.getNowAddr();
     }
 
+    @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "occupation")
+    public String getOccupation(){
+        return super.getOccupation();
+    }
 
+    @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "departmentText")
+    public String getDepartmentText(){
+        return super.getDepartmentText();
+    }
 
+    @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "profile")
+    public String getProfile(){
+        return super.getProfile();
+    }
+
+    private String tagText;
+
+    public String getTagText() {
+        return tagText;
+    }
+
+    public void setTagText(String tagText) {
+        this.tagText = tagText;
+    }
 }

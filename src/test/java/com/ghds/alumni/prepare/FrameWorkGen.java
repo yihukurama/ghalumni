@@ -25,7 +25,7 @@ public class FrameWorkGen {
     @Test
     public void batchGenBaseMapper() throws ClassNotFoundException, IllegalArgumentException, IllegalAccessException, SQLException {
 
-        String[] tableNames = {"business_tags"};//指定重新构造某些表
+        String[] tableNames = {"business_wxuser"};//指定重新构造某些表
 
         Connection conn = null;
         try {

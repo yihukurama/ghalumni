@@ -123,6 +123,10 @@ public class GenEntityImpl implements IGenEntity {
         StringBuffer entColumns = new StringBuffer();
         for (int i = 0; i < columns.size(); i++) {
             Column column = columns.get(i);
+            if (column.getName().equals("id")) {
+                //由于baseEntity中有id，因此这里不用生成
+                continue;
+            }
             entColumns.append("/**\n\t*" + column.getRemark() + "\n\t**/\n\t");
             if (column.getName().equals("id")) {
                 entColumns.append("@Id\n\t");
@@ -153,6 +157,9 @@ public class GenEntityImpl implements IGenEntity {
         StringBuffer entGetSet = new StringBuffer();
         for (int i = 0; i < columns.size(); i++) {
             String name = columns.get(i).getName();
+            if(name.equals("id")){
+                continue;
+            }
             String columnName = name.substring(0, 1).toUpperCase() + name.substring(1);
             String columnType = columns.get(i).getType();
 

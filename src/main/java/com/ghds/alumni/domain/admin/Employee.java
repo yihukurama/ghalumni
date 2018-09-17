@@ -31,4 +31,10 @@ public class Employee extends EmployeeEntity {
     public String getRealName() {
         return super.getRealName();
     }
+
+    @Override
+    @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "note")
+    public String getNote() {
+        return super.getNote();
+    }
 }

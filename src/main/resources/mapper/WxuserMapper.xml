@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ghds.alumni.domain.tkmapper.mapper.business.WxuserMapper">
+
+
+    <select id="selectByTagText"
+            resultType="com.ghds.alumni.domain.tkmapper.entity.business.WxuserEntity">
+        <![CDATA[
+                SELECT
+            *
+        FROM
+            business_wxuser
+        WHERE
+            userId IN (
+                SELECT
+                    userId
+                FROM
+                    business_tags
+                WHERE
+                    text like CONCAT ('%', #{tagText},'%')
+            )
+        ]]>
+    </select>
+
+
+</mapper>

@@ -89,6 +89,9 @@ public class MiniProV1Service implements IMiniProV1 {
         Wxuser wxuser = updatePersonalInfoDto.getWxuser();
         wxuser.setRealName(employeeEntity.getRealName());
         wxuser.setWorkAge(employeeEntity.getWorkAge());
+        wxuser.setMobile(employeeEntity.getMobile());
+        wxuser.setProfile(employeeEntity.getNote());
+        wxuser.setDepartmentText(employeeEntity.getDepartmentName());
         LogUtil.DebugLog(this,"============>"+"微信用户更新0"+ JSON.toJSONString(updatePersonalInfoDto));
         if(wxuser!=null){
             LogUtil.DebugLog(this,"============>"+"微信用户更新1");
@@ -147,12 +150,15 @@ public class MiniProV1Service implements IMiniProV1 {
         Wxuser searchWxuser = request.getData();
         if(searchWxuser == null){
             searchWxuser = new Wxuser();
+        }else{
+            if(!EmptyUtil.isEmpty(searchWxuser.getTagText())){
+                List<WxuserEntity> wxuserEntities = wxuserMapper.selectByTagText(searchWxuser);
+                return Result.successed(wxuserEntities);
+            }
         }
 
+
         return wxuserService.list(searchWxuser,request.getPage(),request.getLimit());
-
-
-
     }
 
     @Override
