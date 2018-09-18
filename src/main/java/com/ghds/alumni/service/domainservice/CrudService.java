@@ -2,6 +2,8 @@ package com.ghds.alumni.service.domainservice;
 
 import com.alibaba.fastjson.JSON;
 import com.ghds.alumni.app.component.annotation.SqlCriteriaFactory;
+import com.ghds.alumni.app.component.annotation.SqlOrderBy;
+import com.ghds.alumni.app.component.annotation.SqlWhere;
 import com.ghds.alumni.app.constant.Constant;
 import com.ghds.alumni.app.constant.MagicCode;
 import com.ghds.alumni.app.exception.TipsException;
@@ -282,6 +284,22 @@ public class CrudService<T extends BaseEntity> {
         Method[] methods = t.getClass().getMethods();
         for (int i = 0; i < methods.length; i++) {
             String methodName = methods[i].getName();
+
+            try {
+                Method getMethod = getMethod = t.getClass().getMethod(methodName);
+                SqlOrderBy sqlOrderBy = getMethod.getAnnotation(SqlOrderBy.class);
+                if(sqlOrderBy!=null){
+                    //该方法有sqlOrderBy注解，应该优先排序
+                    String sqlOrderByValue = sqlOrderBy.value().getValue();
+                    condition.setOrderByClause(sqlOrderBy.proprtityName()+sqlOrderByValue);
+                }
+            }catch (Exception e){
+                continue;
+            }
+
+
+
+
             if (methodName.equals(MagicCode.SETDELSTATUS)){
                 hasDelStatus = true;
                 continue;

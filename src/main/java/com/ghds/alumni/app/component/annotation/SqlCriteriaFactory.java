@@ -54,12 +54,12 @@ public class SqlCriteriaFactory<T extends BaseEntity> {
 
                 LogUtil.DebugLog(this,"最后条件查询的key名是"+ key);
                 criteria.andCondition(key + sqlWhereValue+value);
+
                 continue;
             }
 
             criteria.andEqualTo(key, value);
         }
-
 
 
         return criteria;

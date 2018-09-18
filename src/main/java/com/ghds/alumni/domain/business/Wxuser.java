@@ -1,6 +1,7 @@
 package com.ghds.alumni.domain.business;
 
 
+import com.ghds.alumni.app.component.annotation.SqlOrderBy;
 import com.ghds.alumni.app.component.annotation.SqlWhere;
 import com.ghds.alumni.domain.tkmapper.entity.business.TagsEntity;
 import com.ghds.alumni.domain.tkmapper.entity.business.WxuserEntity;
@@ -39,39 +40,46 @@ public class Wxuser extends WxuserEntity {
         this.tagsEntityList = tagsEntityList;
     }
 
+    @Override
     @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "realName")
     public String getRealName() {
         return super.getRealName();
     }
-
+    @Override
     @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "schoolName")
     public String getSchoolName(){
         return super.getSchoolName();
     }
-
+    @Override
     @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "companyName")
     public String getCompanyName(){
         return super.getCompanyName();
     }
-
+    @Override
     @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "nowAddr")
     public String getNowAddr(){
         return super.getNowAddr();
     }
-
+    @Override
     @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "occupation")
     public String getOccupation(){
         return super.getOccupation();
     }
-
+    @Override
     @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "departmentText")
     public String getDepartmentText(){
         return super.getDepartmentText();
     }
-
+    @Override
     @SqlWhere(value = SqlWhere.SqlWhereValue.LIKE,proprtityName = "profile")
     public String getProfile(){
         return super.getProfile();
+    }
+
+    @Override
+    @SqlOrderBy(value = SqlOrderBy.SqlOrderByValue.DESC,proprtityName = "auth")
+    public Boolean getAuth(){
+        return super.getAuth();
     }
 
     private String tagText;
