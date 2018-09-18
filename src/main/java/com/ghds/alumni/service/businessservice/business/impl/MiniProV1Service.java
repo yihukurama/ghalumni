@@ -134,9 +134,7 @@ public class MiniProV1Service implements IMiniProV1 {
             return Result.failed("无此微信用户");
         }
 
-        if(wxuserEntity.getAuth() == null || !wxuserEntity.getAuth()){
-            return Result.failed("为保护校友信息，请先补充您的校友资料，通过认证后才能查询");
-        }
+
         /**
          * 得到员工信息
          */
@@ -145,6 +143,10 @@ public class MiniProV1Service implements IMiniProV1 {
         employeeEntity = employeeMapper.selectByPrimaryKey(employeeEntity);
         if(employeeEntity == null){
             return Result.failed("未完善个人信息,请完善个人信息再查询校友信息");
+        }
+
+        if(wxuserEntity.getAuth() == null || !wxuserEntity.getAuth()){
+            return Result.failed("为保护校友信息，通过认证后方可查询，催审请联系15914865707");
         }
 
         Wxuser searchWxuser = request.getData();
