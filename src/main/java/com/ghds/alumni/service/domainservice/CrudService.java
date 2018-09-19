@@ -289,29 +289,18 @@ public class CrudService<T extends BaseEntity> {
                 Method getMethod = getMethod = t.getClass().getMethod(methodName);
                 SqlOrderBy sqlOrderBy = getMethod.getAnnotation(SqlOrderBy.class);
                 if(sqlOrderBy!=null){
-                    //该方法有sqlOrderBy注解，应该优先排序
-                    String sqlOrderByValue = sqlOrderBy.value().getValue();
-                    condition.setOrderByClause(sqlOrderBy.proprtityName()+sqlOrderByValue);
+
+                    condition.setOrderByClause(sqlOrderBy.value());
                 }
             }catch (Exception e){
-                continue;
+
             }
-
-
-
 
             if (methodName.equals(MagicCode.SETDELSTATUS)){
                 hasDelStatus = true;
                 continue;
             }
-            if (methodName.equals(MagicCode.SETINDEXORDER)) {
-                condition.setOrderByClause(MagicCode.INDEXORDER + " DESC");
-                continue;
-            }
-            if (methodName.equals(MagicCode.SETCREATEDATE) && EmptyUtil.isEmpty(condition.getOrderByClause())) {
-                condition.setOrderByClause(MagicCode.CREATEDATE + " DESC");
-                continue;
-            }
+
         }
         if(hasDelStatus){
             t.getClass().getMethod(MagicCode.SETDELSTATUS, Integer.class);
@@ -319,7 +308,7 @@ public class CrudService<T extends BaseEntity> {
         }
 
         if (page != null && limit != null) {
-            PageHelper.offsetPage(page, limit);
+            PageHelper.offsetPage(page*limit, limit);
             tList = mapper.selectByExample(condition);
             PageInfo<T> pageInfo = new PageInfo<T>(tList);
             result = Result.successed(tList);

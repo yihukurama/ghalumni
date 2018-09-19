@@ -41,4 +41,6 @@ public class MagicCode {
      * like TEXT 对应的字段名
      */
     public final static String TEXT = "text";
+
+
 }

@@ -7,25 +7,9 @@ import java.lang.annotation.*;
 @Documented
 public @interface SqlOrderBy {
 
-    SqlOrderByValue value();
-    String proprtityName();
+    String value();
 
 
-    public static enum SqlOrderByValue{
-        DESC(" DESC "),
-        ASC(" ASC ")
-        ;
-        private  String value;
-
-
-        public String getValue() {
-            return value;
-        }
-
-        private SqlOrderByValue(String value){
-            this.value = value;
-        }
-    }
 }
 
 

@@ -76,10 +76,10 @@ public class Wxuser extends WxuserEntity {
         return super.getProfile();
     }
 
-    @Override
-    @SqlOrderBy(value = SqlOrderBy.SqlOrderByValue.DESC,proprtityName = "auth")
-    public Boolean getAuth(){
-        return super.getAuth();
+
+    @SqlOrderBy(value = "auth desc,createDate desc")
+    public void setOrderByStr(){
+
     }
 
     private String tagText;
